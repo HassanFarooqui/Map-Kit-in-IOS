@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					A5E021612000D6E300420310 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8GWSL85966;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -258,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8GWSL85966;
 				INFOPLIST_FILE = "Map App with slide view/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HigherVisibility.Map-App-with-slide-view";
@@ -270,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8GWSL85966;
 				INFOPLIST_FILE = "Map App with slide view/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HigherVisibility.Map-App-with-slide-view";

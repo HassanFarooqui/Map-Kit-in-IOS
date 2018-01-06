@@ -7,12 +7,28 @@
 //
 
 import UIKit
+import MapKit
+import CoreLocation
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var Map: MKMapView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+      
+        
+         let Location = CLLocationCoordinate2DMake(24.8942104,67.08806279999999)
+         let annotation = MKPointAnnotation()
+         annotation.coordinate = Location
+         annotation.title = "National Stadium karachi"
+         annotation.subtitle = "Cricket Ground"
+        Map.addAnnotation(annotation)
+        self.Map.camera = MKMapCamera(lookingAtCenter:Location, fromDistance: 17, pitch: 1, heading: 3)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
